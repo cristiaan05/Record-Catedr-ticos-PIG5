@@ -1,0 +1,19 @@
+{
+  "name": "record-catedraticos-pig5",
+  "version": "1.0.0",
+  "description": "Aplicación Web para que los estudiantes tengan acceso a un récord de los catedráticos que han impartido uno o más cursos en la facultad.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristiaan05/Record-Catedraticos-PIG5.git"
+  },
+  "author": "G5-PI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cristiaan05/Record-Catedraticos-PIG5/issues"
+  },
+  "homepage": "https://github.com/cristiaan05/Record-Catedraticos-PIG5#readme"
+}
