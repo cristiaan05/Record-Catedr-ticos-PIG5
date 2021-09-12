@@ -1,19 +1,32 @@
 {
-  "name": "record-catedraticos-pig5",
-  "version": "1.0.0",
-  "description": "Aplicación Web para que los estudiantes tengan acceso a un récord de los catedráticos que han impartido uno o más cursos en la facultad.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cristiaan05/Record-Catedraticos-PIG5.git"
-  },
-  "author": "G5-PI",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cristiaan05/Record-Catedraticos-PIG5/issues"
-  },
-  "homepage": "https://github.com/cristiaan05/Record-Catedraticos-PIG5#readme"
+    "name": "record-catedraticos-pig5",
+    "version": "1.0.0",
+    "description": "Aplicación Web para que los estudiantes tengan acceso a un récord de los catedráticos que han impartido uno o más cursos en la facultad.",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cristiaan05/Record-Catedraticos-PIG5.git"
+    },
+    "author": "G5-PI",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/cristiaan05/Record-Catedraticos-PIG5/issues"
+    },
+    "homepage": "https://github.com/cristiaan05/Record-Catedraticos-PIG5#readme",
+    "dependencies": {
+        "amazon-cognito-identity-js": "^5.1.0",
+        "aws-sdk": "^2.987.0",
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "mysql": "^2.18.1",
+        "mysql2": "^2.3.0",
+        "nodemon": "^2.0.12",
+        "promise-mysql": "^5.0.3",
+        "sequelize": "^6.6.5"
+    }
 }
