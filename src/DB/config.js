@@ -37,6 +37,4 @@ db.usuario = require('../models/usuario')(sequelize, Sequelize);
 
 
 
-
-
 module.exports = db;
