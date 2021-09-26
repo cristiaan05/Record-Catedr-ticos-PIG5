@@ -4,19 +4,29 @@ const sequelize = db.sequelize
 module.exports = (sequelize, Sequelize) => {
     const Usuario = sequelize.define('usuario', {
         registro: {
-            type: Sequelize.INTEGER
+            type: Sequelize.INTEGER,
+            primaryKey: true,
+            allowNull: false
         },
         nombres: {
-            type: Sequelize.STRING
+            type: Sequelize.STRING,
+            allowNull: false
         },
         apellidos: {
-            type: Sequelize.STRING
+            type: Sequelize.STRING,
+            allowNull: false
         },
         password: {
-            type: Sequelize.STRING
+            type: Sequelize.STRING,
+            allowNull: false
         },
         email: {
-            type: Sequelize.STRING
+            type: Sequelize.STRING,
+            allowNull: false
+        },
+        creditos: {
+            type: Sequelize.INTEGER,
+            allowNull: true
         }
     }, { timestamps: false }, {
         charset: 'utf8',

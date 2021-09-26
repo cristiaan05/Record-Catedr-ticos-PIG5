@@ -25,6 +25,8 @@ db.sequelize = sequelize;
 
 // //Models/tables
 db.usuario = require('../models/usuario')(sequelize, Sequelize);
+db.curso = require('../models/curso')(sequelize, Sequelize);
+db.catedratico = require('../models/Catedratico')(sequelize, Sequelize);
 // db.empleado = require('../models/empleado')(sequelize, Sequelize);
 // db.solicitud = require('../models/solicitud')(sequelize, Sequelize);
 // db.vacaciones = require('../models/vacaciones')(sequelize, Sequelize);
